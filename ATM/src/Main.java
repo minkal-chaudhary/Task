@@ -18,7 +18,9 @@ class Main {
    
    atm.topUp(new Amount(23900));
    System.out.println(atm);
-   atm.transit(new Transaction(10600,"Withdraw"));
+   atm.transit(new Transaction(10400,"Withdraw"));
+   atm.transit(new Transaction(50201,"Deposit"));
+   System.out.println();
    System.out.println(atm);
 	}
 }

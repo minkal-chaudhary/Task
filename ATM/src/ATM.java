@@ -18,6 +18,7 @@ class ATM
 	    }	
 	}
 	
+	
 	public void topUp(Amount a)
 	{
 	 Deposit.deposit(a,hm);

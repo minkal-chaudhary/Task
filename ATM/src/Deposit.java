@@ -10,8 +10,10 @@ public class Deposit extends Transaction{
 	}
 public static void deposit(Amount a,TreeMap<Integer,Integer> hm)
 {
-	 
+	
     int amount=a.getAmount();
+    if(amount%100==0)
+    {
     Set<Integer> keys=hm.keySet();
     
     
@@ -26,5 +28,9 @@ public static void deposit(Amount a,TreeMap<Integer,Integer> hm)
    		 break;
    	 
      }
+}
+else {
+	System.out.println("cant deposit it in this denomination");
+}
 }
 }
