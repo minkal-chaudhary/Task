@@ -14,13 +14,13 @@ class Main {
    al.add(100);
    Denomination d=new Denomination(al);
    
- ATM atm=new ATM(d);
+ ATM atm1=new ATM(d);
    
-   atm.topUp(new Amount(23900));
-   System.out.println(atm);
-   atm.transit(new Transaction(10400,"Withdraw"));
-   atm.transit(new Transaction(50201,"Deposit"));
-   System.out.println("Branch ATM Changes");
-   System.out.println(atm);
+   atm1.topUp(new Amount(23900));
+   System.out.println(atm1);
+   atm1.transit(new Transaction(10400,"Withdraw"));
+   atm1.transit(new Transaction(50201,"Deposit"));
+   System.out.println("main branch ");
+   System.out.println(atm1);
 	}
 }
