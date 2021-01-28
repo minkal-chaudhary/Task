@@ -20,7 +20,7 @@ class Main {
    System.out.println(atm);
    atm.transit(new Transaction(10400,"Withdraw"));
    atm.transit(new Transaction(50201,"Deposit"));
-   System.out.println("edit 1");
+   System.out.println("Branch ATM Changes");
    System.out.println(atm);
 	}
 }
