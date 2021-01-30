@@ -10,7 +10,7 @@ public class Main {
 
 		// Create producer thread 
 		Thread t1 = new Thread(new Runnable() { 
-			@Override
+			
 			public void run() 
 			{ 
 				try { 
@@ -24,7 +24,7 @@ public class Main {
 
 		// Create consumer thread 
 		Thread t2 = new Thread(new Runnable() { 
-			@Override
+			
 			public void run() 
 			{ 
 				try { 
