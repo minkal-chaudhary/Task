@@ -6,11 +6,11 @@ public class Main {
 	{ 
 		// ProducerConsumer class that has both produce() 
 		// and consume() methods 
-		final ProducerConsumer pc = new ProducerConsumer(); 
+		 ProducerConsumer pc = new ProducerConsumer(); 
 
 		// Create producer thread 
 		Thread t1 = new Thread(new Runnable() { 
-			@Override
+			
 			public void run() 
 			{ 
 				try { 
@@ -22,9 +22,9 @@ public class Main {
 			} 
 		}); 
 
-		// Create consumer thread 
+		
 		Thread t2 = new Thread(new Runnable() { 
-			@Override
+			
 			public void run() 
 			{ 
 				try { 
